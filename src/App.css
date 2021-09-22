@@ -293,3 +293,18 @@ footer{
   font-family: 'Roboto', sans-serif;
   padding:6rem 0rem; 
 }
+
+/* PAGINATION */
+.pagination{
+  display:flex;
+  justify-content:center;
+}
+.page-item{
+  margin:4rem 1rem;
+}
+.page-button{
+  border-radius:8px;
+  background:var(--blue);
+  color:var(--blanco);
+  padding:0.8rem 1rem;
+}
