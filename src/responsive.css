@@ -1,0 +1,106 @@
+@media (max-width:948px){
+.contenido-table div p{
+    width:120px;
+    height:auto;
+}
+}
+@media (max-width:791px){
+.contenido-table div p{
+    width:100px;
+}
+}
+@media (max-width:690px){
+.nav-ul {
+    position:relative;
+    height:10rem;
+    display:flex;
+    background:var(--blue);
+    justify-content:center;
+    margin-top:5rem;
+    z-index:5;
+}
+.nav .nav-ul li .link{
+    color:var(--blanco);
+    margin:0px;
+}
+.nav .nav-ul .button-user{
+    position:absolute;
+    left:50%;
+    margin-top:1.5rem;
+}
+.button-menu{
+    display:block;
+    float:right;
+    height:3rem;
+    width:3rem;
+    border:none;
+    background:var(--blue);
+    margin:0.7rem 1rem;
+}
+.button-menu i {
+    color:var(--blanco);
+    font-size:18px;
+}
+.contenido-table div p{
+    width:75px;
+}
+/*  CARD STYLES */
+.card .editar {
+    width:3rem;
+    margin:0rem 2vw;
+}
+.card p {
+    font-size:18px;
+}
+}
+@media (max-width:566px){
+.tabla{
+    width:auto;
+    margin:5vw;
+}
+.title{
+    width:80vw;
+    height:auto;
+    font-size:1.8rem;
+    word-break: break-word;
+}
+.tabla #titles{
+    float:left;
+}
+.tabla .contenido-table p{
+    width:40vw;
+    height:3rem;
+}
+.contenido-table .item-editar{
+  position:absolute;
+  width:45vw;
+  height:5rem;
+  background:var(--blanco);
+}
+.tabla .contenido-table{
+    float:right;
+    width:50%;
+    padding-bottom:6rem;
+}
+.tabla .contenido-table .editar i{
+    font-size:2rem;
+}
+.contenido-table div{
+    display:table-caption;
+}
+.form{
+    width:80vw;
+    margin-left:10vw;
+}
+}
+@media (max-width:430px){
+.tabla{
+    margin-top:5rem;
+}
+.buscador select{
+    position:absolute;
+    width:17rem;
+    height:2.5rem;
+    margin-top:2.5rem;
+}
+}
